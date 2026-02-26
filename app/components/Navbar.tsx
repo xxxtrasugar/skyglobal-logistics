@@ -99,7 +99,7 @@ export default function Navbar() {
             {/* Tambahan Info Kontak di Menu Mobile */}
             <div className="mt-4 pt-4 border-t border-gray-100 flex flex-col gap-3 text-sm text-slate-500">
                <div className="flex items-center gap-2">
-                  <Phone size={16} /> +1 555-555-5556
+                  <Phone size={16} /> +62 813-8067-0645
                </div>
             </div>
           </div>
