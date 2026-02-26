@@ -45,7 +45,7 @@ export default function Home() {
 
       {/* OPTIMIZE SECTION */}
       <section className="py-20 bg-white">
-        <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+        <div className="container mx-auto px-6 md:px-12 lg:px-24 grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl font-bold text-slate-800 mb-6">
               Optimize Your <span className="font-extrabold">Logistics</span>
@@ -78,7 +78,7 @@ export default function Home() {
 
       {/* METRICS SECTION (Odoo Style) */}
       <section className="py-20 bg-white">
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto px-6 md:px-12 lg:px-24">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             
             {/* Kiri: Teks Judul & Deskripsi */}

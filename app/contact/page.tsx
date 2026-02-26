@@ -14,14 +14,14 @@ export default function Contact() {
                className="object-cover"
             />
          </div>
-         <div className="container mx-auto px-6 relative z-10 text-white">
+         <div className="container mx-auto px-6 md:px-12 lg:px-24 relative z-10 text-white">
             <h1 className="text-4xl md:text-5xl font-bold">Contact us</h1>
          </div>
       </section>
 
       {/* FORM & INFO SECTION (Image 9) */}
       <section className="py-16 bg-white">
-         <div className="container mx-auto px-6 grid md:grid-cols-3 gap-12">
+         <div className="container mx-auto px-6 md:px-12 lg:px-24 grid md:grid-cols-3 gap-12">
             
             {/* LEFT COLUMN: FORM */}
             <div className="md:col-span-2">

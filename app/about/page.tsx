@@ -14,14 +14,14 @@ export default function About() {
                className="object-cover"
             />
          </div>
-         <div className="container mx-auto px-6 relative z-10 text-white">
+         <div className="container mx-auto px-6 md:px-12 lg:px-24 relative z-10 text-white">
             <h1 className="text-4xl md:text-5xl font-bold">About us</h1>
          </div>
       </section>
 
       {/* COMPANY DESCRIPTION (Image 6 Content) */}
       <section className="py-16 bg-white">
-        <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+        <div className="container mx-auto px-6 md:px-12 lg:px-24 grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl font-bold text-slate-800 mb-6">
               Optimize Your <span className="text-slate-900">Logistics</span>
@@ -52,7 +52,7 @@ export default function About() {
 
       {/* DISCOVER SOLUTIONS SECTION (Sesuai Image 5) */}
       <section className="py-20 bg-slate-50">
-         <div className="container mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+         <div className="container mx-auto px-6 md:px-12 lg:px-24 grid md:grid-cols-2 gap-12 items-center">
             {/* Left Image */}
             <div className="relative h-[400px] w-full rounded-lg overflow-hidden shadow-xl">
                <Image 
@@ -83,7 +83,7 @@ export default function About() {
          </div>
       </section>
 
-      {/* MEET OUR EXPERTS (Image 8) */}
+      {/* MEET OUR EXPERTS (Image 8)
       <section className="py-20 bg-slate-50">
         <div className="container mx-auto px-6">
            <div className="text-center mb-16">
@@ -92,7 +92,6 @@ export default function About() {
            </div>
            
            <div className="grid md:grid-cols-2 gap-12">
-              {/* Team Member 1 */}
               <div className="flex gap-6 items-start">
                  <div className="w-24 h-24 rounded-full overflow-hidden flex-shrink-0 relative border-4 border-white shadow-sm">
                     <Image src="/images/user-alex.jpg" alt="Tony" fill className="object-cover"/>
@@ -106,7 +105,6 @@ export default function About() {
                  </div>
               </div>
 
-              {/* Team Member 2 */}
               <div className="flex gap-6 items-start">
                  <div className="w-24 h-24 rounded-full overflow-hidden flex-shrink-0 relative border-4 border-white shadow-sm">
                     <Image src="/images/user-alex.jpg" alt="Mich" fill className="object-cover"/>
@@ -120,7 +118,6 @@ export default function About() {
                  </div>
               </div>
 
-              {/* Team Member 3 */}
               <div className="flex gap-6 items-start">
                  <div className="w-24 h-24 rounded-full overflow-hidden flex-shrink-0 relative border-4 border-white shadow-sm">
                     <Image src="/images/user-alex.jpg" alt="Aline" fill className="object-cover"/>
@@ -134,7 +131,6 @@ export default function About() {
                  </div>
               </div>
 
-              {/* Team Member 4 */}
               <div className="flex gap-6 items-start">
                  <div className="w-24 h-24 rounded-full overflow-hidden flex-shrink-0 relative border-4 border-white shadow-sm">
                     <Image src="/images/user-alex.jpg" alt="Iris" fill className="object-cover"/>
@@ -150,6 +146,7 @@ export default function About() {
            </div>
         </div>
       </section>
+      */}
     </main>
   );
 }

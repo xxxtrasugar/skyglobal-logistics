@@ -45,14 +45,14 @@ export default function Navbar() {
         </div>
         <div className="flex items-center gap-2">
           <Phone size={16} />
-          <span>+1 555-555-5556</span>
+          <span>+62 813-8067-0645</span>
         </div>
         <Link href="/contact" className="bg-[#007cb0] text-white px-4 py-1.5 rounded text-sm font-medium hover:bg-blue-700 transition">Contact Us</Link>
       </div>
 
       {/* Main Navigation */}
       <nav className="sticky top-0 z-40 bg-white shadow-sm">
-        <div className="container mx-auto px-6 py-4 flex justify-between items-center">
+        <div className="container mx-auto px-6 md:px-12 lg:px-24 py-4 flex justify-between items-center">
           
           {/* LOGO */}
           <Link href="/" className="flex items-center gap-3 group">

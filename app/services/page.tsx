@@ -22,14 +22,14 @@ export default function Services() {
                className="object-cover"
             />
          </div>
-         <div className="container mx-auto px-6 relative z-10 text-white">
+         <div className="container mx-auto px-6 md:px-12 lg:px-24 relative z-10 text-white">
             <h1 className="text-4xl md:text-5xl font-bold">Services</h1>
          </div>
       </section>
 
       {/* SERVICE CARDS SECTION (Sesuai Image 3) */}
       <section className="py-20 bg-white">
-         <div className="container mx-auto px-6">
+         <div className="container mx-auto px-6 md:px-12 lg:px-24">
             
             <div className="grid md:grid-cols-3 gap-8">
                {/* Card 1: International Freight */}
@@ -137,10 +137,9 @@ export default function Services() {
          </div>
       </section>
 
-      {/* TESTIMONIALS */}
+      {/* TESTIMONIALS
       <section className="relative py-24 bg-slate-50">
         <div className="absolute inset-0 z-0">
-             {/* Pastikan ada file testimonial-bg.jpg */}
              <Image 
                 src="/images/testimonial-bg.jpg" 
                 alt="Port background" 
@@ -156,7 +155,6 @@ export default function Services() {
               </p>
               <div className="flex flex-col items-center">
                  <div className="w-12 h-12 bg-gray-300 rounded-full mb-3 overflow-hidden relative">
-                    {/* Pastikan ada file user-alex.jpg */}
                     <Image src="/images/user-alex.jpg" alt="User" fill className="object-cover"/>
                  </div>
                  <h4 className="font-bold text-slate-900">Alex SMITH</h4>
@@ -165,17 +163,15 @@ export default function Services() {
            </div>
         </div>
       </section>
+      */}
 
-      {/* PARTNERS */}
-      {/* PARTNERS SECTION LOGO VERSION */}
+      {/* PARTNERS 
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6 text-center">
            <h2 className="text-3xl font-bold text-slate-800 mb-12">Partners and Testimonials</h2>
            
-           {/* Container Logo */}
            <div className="flex flex-wrap justify-center items-center gap-x-12 gap-y-8 grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all duration-300">
               
-              {/* Mapping Data Logo */}
               {partnerLogos.map((partner, index) => (
                 // Dibungkus div agar tinggi konsisten
                 <div key={index} className="relative h-12 w-32 flex items-center justify-center">
@@ -193,6 +189,7 @@ export default function Services() {
            </div>
         </div>
       </section>
+      */}
     </main>
   );
 }
