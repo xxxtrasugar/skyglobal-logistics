@@ -19,7 +19,7 @@ export default function Services() {
                src="/images/hero-services.jpg" 
                alt="Services Background" 
                fill 
-               className="object-cover object-mid brightness-[0.4]" 
+               className="object-cover object-[center_30%] brightness-[0.4]" 
                priority
             />
          </div>

@@ -13,7 +13,7 @@ export default function Home() {
             src="/images/hero-bg-new.jpg"
             alt="Logistics Containers"
             fill
-            className="object-cover brightness-[0.4]"
+            className="object-cover object-[center_30%] brightness-[0.4]"
             priority
           />
         </div>

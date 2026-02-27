@@ -11,7 +11,7 @@ export default function About() {
                src="/images/hero-about.jpg" 
                alt="About Background" 
                fill 
-               className="object-cover object-top brightness-[0.4]" 
+               className="object-cover object-[center_30%] brightness-[0.4]" 
                priority
             />
          </div>

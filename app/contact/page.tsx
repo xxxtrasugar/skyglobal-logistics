@@ -11,7 +11,7 @@ export default function Contact() {
                src="/images/service-domestic.jpg" 
                alt="Contact Background" 
                fill 
-               className="object-cover"
+               className="object-cover object-[center_50%]"
             />
          </div>
          <div className="container mx-auto px-6 md:px-12 lg:px-24 relative z-10 text-white">
