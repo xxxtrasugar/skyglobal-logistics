@@ -59,11 +59,12 @@ export default function RootLayout({
                 <ul className="space-y-4 text-slate-400 mb-8">
                   <li className="flex items-start gap-3">
                     <Mail size={20} className="text-[#007cb0] mt-0.5 flex-shrink-0"/> 
-                    <span className="text-sm">info@skyglobal-log.id</span>
+                    <span className="text-sm">customer.service@skyglobal-log.id</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <Phone size={20} className="text-[#007cb0] mt-0.5 flex-shrink-0"/> 
-                    <span className="text-sm">+62 813-8067-0645</span>
+                    <span className="text-sm">
+                      5445479 / 5443095</span>
                   </li>
                 </ul>
                 <div className="flex gap-4">

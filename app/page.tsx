@@ -10,7 +10,7 @@ export default function Home() {
         {/* Background Image Local */}
         <div className="absolute inset-0 z-0">
           <Image 
-            src="/images/hero-bg.jpg"
+            src="/images/hero-bg-new.jpg"
             alt="Logistics Containers"
             fill
             className="object-cover brightness-[0.4]"

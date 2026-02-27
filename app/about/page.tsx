@@ -8,10 +8,11 @@ export default function About() {
       <section className="relative h-[300px] bg-[#0f172a] flex items-center">
          <div className="absolute inset-0 opacity-30">
             <Image 
-               src="/images/ship-optimize.jpg" 
+               src="/images/hero-about.jpg" 
                alt="About Background" 
                fill 
-               className="object-cover"
+               className="object-cover object-top brightness-[0.4]" 
+               priority
             />
          </div>
          <div className="container mx-auto px-6 md:px-12 lg:px-24 relative z-10 text-white">
@@ -29,10 +30,10 @@ export default function About() {
             <p className="text-slate-700 font-bold mb-4">
                PT Sky Global Logistik Indonesia <span className="font-normal">is an integrated logistics and freight forwarding company providing reliable international and domestic cargo transportation services.</span>
             </p>
-            <p className="text-slate-600 mb-4 leading-relaxed text-sm">
+            <p className="text-slate-600 mb-6 leading-relaxed">
                We specialize in handling import and export shipments with efficient coordination, regulatory compliance, and professional operational support. Our team understands that every shipment carries business value, therefore we ensure accuracy, timeliness, and safety in every delivery process.
             </p>
-            <p className="text-slate-600 mb-8 leading-relaxed text-sm">
+            <p className="text-slate-600 mb-6 leading-relaxed">
                With strong operational experience and customer-oriented service, we aim to become a trusted logistics partner for companies requiring dependable supply chain solutions. We can assure to meet customer's and laws requirement.
             </p>
             {/* <button className="bg-slate-300 text-slate-800 px-6 py-2 rounded hover:bg-slate-400 transition font-medium">

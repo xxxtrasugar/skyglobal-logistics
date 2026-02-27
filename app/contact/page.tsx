@@ -28,37 +28,48 @@ export default function Contact() {
                <h2 className="text-xl text-slate-600 mb-2">Contact us about anything related to our company or services.</h2>
                <p className="text-slate-600 mb-8">We'll do our best to get back to you as soon as possible.</p>
                
-               <form className="space-y-6">
+               <form 
+                  action="https://formsubmit.co/customer.service@skyglobal-log.id" 
+                  method="POST" 
+                  className="space-y-6"
+               >
+                  {/* Pengaturan opsional FormSubmit agar rapi */}
+                  <input type="hidden" name="_subject" value="Pertanyaan Baru dari Website Skyglobal!" />
+                  <input type="hidden" name="_captcha" value="false" />
+                  {/* Baris ini akan mengarahkan user kembali ke halaman contact setelah berhasil */}
+                  <input type="hidden" name="_next" value="https://skyglobal-logistics.vercel.app/contact" />
+
                   <div className="grid md:grid-cols-2 gap-6">
                      <div>
                         <label className="block text-sm font-medium text-slate-700 mb-1">Name *</label>
-                        <input type="text" className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-1 focus:ring-blue-500" placeholder="Bill Joe" required />
+                        {/* Wajib tambahkan atribut name="" pada setiap input */}
+                        <input type="text" name="Nama" className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-1 focus:ring-blue-500" required />
                      </div>
                      <div>
                         <label className="block text-sm font-medium text-slate-700 mb-1">Phone Number</label>
-                        <input type="tel" className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-1 focus:ring-blue-500" />
+                        <input type="tel" name="Nomor_Telepon" className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-1 focus:ring-blue-500" />
                      </div>
                   </div>
 
                   <div className="grid md:grid-cols-2 gap-6">
                      <div>
                         <label className="block text-sm font-medium text-slate-700 mb-1">Email *</label>
-                        <input type="email" className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-1 focus:ring-blue-500" placeholder="user@example.com" required />
+                        <input type="email" name="Email" className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-1 focus:ring-blue-500" required />
                      </div>
                      <div>
                         <label className="block text-sm font-medium text-slate-700 mb-1">Company</label>
-                        <input type="text" className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-1 focus:ring-blue-500" />
+                        <input type="text" name="Perusahaan" className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-1 focus:ring-blue-500" />
                      </div>
                   </div>
 
                   <div>
                      <label className="block text-sm font-medium text-slate-700 mb-1">Subject *</label>
-                     <input type="text" className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-1 focus:ring-blue-500" required />
+                     <input type="text" name="Subjek" className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-1 focus:ring-blue-500" required />
                   </div>
 
                   <div>
                      <label className="block text-sm font-medium text-slate-700 mb-1">Question *</label>
-                     <textarea rows={6} className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-1 focus:ring-blue-500" required></textarea>
+                     <textarea name="Pertanyaan" rows={6} className="w-full border border-gray-300 rounded px-3 py-2 focus:outline-none focus:ring-1 focus:ring-blue-500" required></textarea>
                   </div>
 
                   <div className="flex justify-end">
@@ -77,19 +88,21 @@ export default function Contact() {
                   <div className="flex gap-3">
                      <MapPin className="text-slate-400 flex-shrink-0 mt-1" size={18} />
                      <p>
-                        Jl. Gatot Subroto Km. 7,8 No.88, Blok 3-5 RT.03 RW.05, Jatake, Jatiuwung Tangerang<br/>
+                        Jl. Gatot Subroto Km. 7,8 No.88, Blok 5 RT.03 RW.05, Jatake, Jatiuwung Tangerang<br/>
                         Banten 15136
                      </p>
                   </div>
                   
                   <div className="flex gap-3 items-center">
                      <Phone className="text-slate-400 flex-shrink-0" size={18} />
-                     <p>+62 813-8067-0645</p>
+                     <p>
+                        5445479 / 5443095
+                     </p>
                   </div>
                   
                   <div className="flex gap-3 items-center">
                      <Mail className="text-slate-400 flex-shrink-0" size={18} />
-                     <p>info@skyglobal-log.id</p>
+                     <p>customer.service@skyglobal-log.id</p>
                   </div>
                </div>
             </div>

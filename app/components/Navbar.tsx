@@ -45,7 +45,7 @@ export default function Navbar() {
         </div>
         <div className="flex items-center gap-2">
           <Phone size={16} />
-          <span>+62 813-8067-0645</span>
+          <span>5445479 / 5443095</span>
         </div>
         <Link href="/contact" className="bg-[#007cb0] text-white px-4 py-1.5 rounded text-sm font-medium hover:bg-blue-700 transition">Contact Us</Link>
       </div>
@@ -56,18 +56,15 @@ export default function Navbar() {
           
           {/* LOGO */}
           <Link href="/" className="flex items-center gap-3 group">
-             <div className="relative h-10 w-10 md:h-12 md:w-12">
+             <div className="relative h-10 w-48 md:h-14 md:w-40">
                 <Image
-                    src="/images/logo.png" 
+                    src="/images/logo_1.png" 
                     alt="Logo Icon"
                     fill
                     className="object-contain"
                     priority
                 />
              </div>
-             <span className="text-xl md:text-2xl font-bold text-slate-800">
-                Skyglobal Logistik
-             </span>
           </Link>
 
           {/* Desktop Menu (Hidden on Mobile) */}
@@ -99,7 +96,7 @@ export default function Navbar() {
             {/* Tambahan Info Kontak di Menu Mobile */}
             <div className="mt-4 pt-4 border-t border-gray-100 flex flex-col gap-3 text-sm text-slate-500">
                <div className="flex items-center gap-2">
-                  <Phone size={16} /> +62 813-8067-0645
+                  <Phone size={16} /> (021)5445479/(021)5443095
                </div>
             </div>
           </div>

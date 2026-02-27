@@ -16,10 +16,11 @@ export default function Services() {
          {/* Background Image with Overlay */}
          <div className="absolute inset-0 opacity-40">
             <Image 
-               src="/images/service-freight.jpg" 
+               src="/images/hero-services.jpg" 
                alt="Services Background" 
                fill 
-               className="object-cover"
+               className="object-cover object-mid brightness-[0.4]" 
+               priority
             />
          </div>
          <div className="container mx-auto px-6 md:px-12 lg:px-24 relative z-10 text-white">
